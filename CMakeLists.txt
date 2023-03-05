@@ -17,7 +17,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/demo)
 
 
 pico_enable_stdio_usb(test 1)
-pico_enable_stdio_uart(test 0)
+pico_enable_stdio_uart(test 1)
 
 
 
