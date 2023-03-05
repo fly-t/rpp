@@ -11,7 +11,7 @@
 
 #include "blink.h"
 #include "hello_48Mhz.h"
-
+#include "clock.h"
 
 int main()
 {
@@ -23,7 +23,9 @@ int main()
     {
         // setup blink time 90ms
         demo_blink(190);
-        printf("blink demo!\n");
+
+        // show clock frequence
+        demo_get_sys_closk();
     }
     return 0;
 }
