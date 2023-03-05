@@ -8,4 +8,4 @@
 * @param[in] none
 * @return none
 */
-void demo_blink();
+void demo_blink(int ms);

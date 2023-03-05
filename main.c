@@ -17,6 +17,6 @@ int main()
 
     while (true)
     {
-        demo_blink();
+        demo_blink(80);
     }
 }
