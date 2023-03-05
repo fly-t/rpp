@@ -17,6 +17,7 @@ int main()
 
     while (true)
     {
-        demo_blink(80);
+        // setup blink time 90ms
+        demo_blink(90);
     }
 }
