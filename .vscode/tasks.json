@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Pico Build && Flash",
+            "command": "cd ./build/ && rm -rf * && cmake .. && make -j10 -B && cp *.uf2 /media/dd21/RPI-RP2/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

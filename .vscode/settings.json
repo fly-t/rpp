@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "gpio.h": "c",
+        "tusb_config.h": "c",
+        "stdio.h": "c",
+        "pico.h": "c",
+        "pin_map.h": "c",
+        "rpp_gpio.h": "c",
+        "time.h": "c",
+        "blink.h": "c",
+        "timer.h": "c",
+        "hello_48mhz.h": "c",
+        "pll.h": "c",
+        "clock.h": "c"
+    }
+}
