@@ -24,4 +24,4 @@ pico_enable_stdio_uart(test 1)
 pico_add_extra_outputs(test)
 
 # Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(test pico_stdlib)
+target_link_libraries(test pico_stdlib pico_time)

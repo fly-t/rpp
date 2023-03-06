@@ -39,4 +39,20 @@ uint rpp_get_usb_clock(void);
  * @return none
  */
 void demo_get_sys_closk(void);
+
+/**
+ * @brief software delay
+ *
+ * @param[vue] delay value
+ * @return null
+ */
+void rpp_soft_delay(uint32_t vue);
+
+/**
+ * @brief get system clodk demo
+ *
+ * @param[void] none
+ * @return none
+ */
+void rpp_set_sys_133Mhz(void);
 #endif // _CLOCK_H
